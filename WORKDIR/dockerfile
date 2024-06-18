@@ -1,3 +1,5 @@
 FROM almalinux
+RUN useradd Naveen
+USER Naveen
 WORKDIR /tmp
 RUN echo "Hello there" > workdir.txt
