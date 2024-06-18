@@ -1,0 +1,4 @@
+FROM almalinux
+RUN useradd Naveen
+USER Naveen
+RUN echo "Hello World !!" > /tmp/hello.txt
