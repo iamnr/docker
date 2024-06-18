@@ -1,0 +1,3 @@
+FROM almalinux
+ADD hello.txt /tmp/
+ADD https://github.com/iamnr/docker.git /tmp/tml
